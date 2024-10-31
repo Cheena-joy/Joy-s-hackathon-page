@@ -1,0 +1,355 @@
+@import "./variables";
+@import "./mediaquery";
+@import "./base";
+
+@mixin bestideas-section{
+    // width: 100%;
+    height: 1200px;
+    padding-inline: $inline;
+    padding-block: $block;
+    background-color: $background;
+    .bestideas-div{
+        width: 100%;
+        height: 100%;
+        // background-color: $primary;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .bestideas-textarea{
+            width: 100%;
+            height: 94px;
+            // background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                width: 366px;
+                font-size: 30px;
+                line-height: 46.87px;
+                color: $primary;
+            }
+            p{
+                width: 375px;
+                font-size: 18px;
+                line-height: 28.64px;
+                color: $pcolor;
+            }
+        }
+        .bestideas-grid{
+            height: 510px;
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            .bestideas-gridone{
+                width: 100%;
+                height: 50%;
+                // background-color: aqua;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .bestideas-card{
+                    width: 366px;
+                    height: 240px;
+                    padding: 30px;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .bestideas-imgwrap{
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        display: grid;
+                        place-items: center;
+                        background-color: #DBDED5;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            bottom: 0;
+                            left: 1rem;
+                        }
+                    }
+                    h3{
+                        color: $primary;
+                        font-size: 23px;
+                        line-height: 33.85px;
+                        margin: 0;
+                    }
+                    p{
+                        color: #111111;
+                        font-size: 16px;
+                        // line-height: 28.64px;
+                    }
+                }
+            }
+            .bestideas-gridtwo{
+                width: 100%;
+                height: 50%;
+                // background-color: green;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .bestideas-card{
+                    width: 366px;
+                    height: 240px;
+                    padding: 30px;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .bestideas-imgwrap{
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        display: grid;
+                        place-items: center;
+                        background-color: #DBDED5;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            bottom: 0;
+                            left: 1rem;
+                        }
+                    }
+                    h3{
+                        color: $primary;
+                        font-size: 23px;
+                        line-height: 33.85px;
+                        margin: 0;
+                    }
+                    p{
+                        color: #111111;
+                        font-size: 16px;
+                        // line-height: 28.64px;
+                    }
+                }
+            }
+        }
+        .bestideas-learn{
+            height: 304px;
+            // background-color: blue;
+            width: 100%;
+            // background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .skills-card{
+                width: 366px;
+                height: 240px;
+                padding: 20px 30px;
+                // background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                // gap: 15px;
+                justify-content: space-between;
+                .skills-imgwrap{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    display: grid;
+                    place-items: center;
+                    background-color: #DBDED5;
+                }
+                h2{
+                    color: $primary;
+                    font-size: 23px;
+                    line-height: 33.85px;
+                }
+                p{
+                    color: #111111;
+                    font-size: 16px;
+                }
+                .skills-text{
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    // background-color: aqua;
+                    p{
+                        color: $primary;
+                        font-size: 16px;
+                    }
+                    a{
+                        // height: 100%;
+                        display: grid;
+                        place-items: center;
+                        // background-color: green;
+                    }
+                }
+            }
+        }
+    }
+}
+@mixin bestideas-ipad{}
+
+@mixin testimos{
+    height: 630px;
+    padding-inline: $inline;
+    padding-block: $block;
+    background-color: #ffffff;
+    .testimonial-div{
+        width: 100%;
+        height: 100%;
+        // background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .testimos-one{
+            height: 250px;
+            // background-color: bisque;
+            display: flex;
+            .testimos-onetext{
+                width: 60%;
+                // background-color: yellow;
+                padding: 36.5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-size: 30px;
+                    color: $primary;
+                }
+                p{
+                    font-size: 18px;
+                    // color: $pcolor;
+                }
+                .testimos-button{
+                    width: 150px;
+                    height: 45px;
+                    cursor: pointer;
+                    background-color: $primary;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    p{
+                        color: white;
+                        font-size: 16px;
+                    }
+                    div{
+                        display: grid;
+                        place-items: center;
+                    }
+                }
+            }
+            .testimos-main{
+                width: 40%;
+                background-color: #F3F9EB;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .testimos-stars{
+                    display: flex;
+                    gap: 15px;
+                }
+                p{
+                    font-size: 17px;
+                    width: 90%;
+                }
+                .testimos-profile{
+                    display: flex;
+                    height: 70px;
+                    gap: 20px;
+                    .testimos-imgwrap{
+                        height: 70px;
+                        width: 70px;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                    .testimos-details{
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;
+                        justify-content: center;
+                        gap: 10px;
+                        h4{
+                            font-size: 22px;
+                        }
+                        p{
+                            font-size: 18px;
+                            color: $pcolor;
+                        }
+                    }
+                }
+            }
+        }
+        .testimos-two{
+            height: 91px;
+            // background-color: burlywood;
+            display: flex;
+            justify-content: space-between;
+            .stats-box{
+                height: 100%;
+                width: 134px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3{
+                    font-size: 36px;
+                    font-weight: 600;
+                    color: $primary;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@mixin overlay-section{
+    height: 350px;
+    position: relative;
+    .overlay-imgwrap{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        z-index: 1;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .overlay{
+        background-color: $overlay;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        >p{
+            font-size: 28px;
+            color: #ffffff;
+            width: 780px;
+            text-align: center;
+        }
+        .overlay-button{
+            width: 155px;
+            height: 45px;
+            cursor: pointer;
+            background-color: #F8FCED;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            p{
+                color: $primary;
+                font-size: 16px;
+                // background-color: green;
+            }
+            div{
+                display: grid;
+                place-items: center;
+            }
+        }
+    }
+}

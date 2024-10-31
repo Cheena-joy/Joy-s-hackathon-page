@@ -1,0 +1,19 @@
+@import "./mixins";
+@import "./variables";
+@import "./mediaquery";
+
+.bestideas-section{
+    @include bestideas-section;
+    @include mediaQuery(1024px, 768px){
+        @include bestideas-ipad;
+    }
+    // @include mediaQuery(767px){
+    //     @include mobilenav;
+    // };
+}
+.testimonial-section{
+    @include testimos;
+}
+.overlay-section{
+    @include overlay-section;
+}

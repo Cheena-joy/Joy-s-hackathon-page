@@ -1,0 +1,473 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.bestideas-section {
+  height: 1200px;
+  padding-inline: 120px;
+  padding-block: 94px;
+  background-color: #F3F9EB;
+}
+.bestideas-section .bestideas-div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.bestideas-section .bestideas-div .bestideas-textarea {
+  width: 100%;
+  height: 94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestideas-section .bestideas-div .bestideas-textarea h1 {
+  width: 366px;
+  font-size: 30px;
+  line-height: 46.87px;
+  color: #15473E;
+}
+.bestideas-section .bestideas-div .bestideas-textarea p {
+  width: 375px;
+  font-size: 18px;
+  line-height: 28.64px;
+  color: #959698;
+}
+.bestideas-section .bestideas-div .bestideas-grid {
+  height: 510px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone .bestideas-card {
+  width: 366px;
+  height: 240px;
+  padding: 30px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone .bestideas-card .bestideas-imgwrap {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #DBDED5;
+  position: relative;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone .bestideas-card .bestideas-imgwrap img {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone .bestideas-card h3 {
+  color: #15473E;
+  font-size: 23px;
+  line-height: 33.85px;
+  margin: 0;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridone .bestideas-card p {
+  color: #111111;
+  font-size: 16px;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo .bestideas-card {
+  width: 366px;
+  height: 240px;
+  padding: 30px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo .bestideas-card .bestideas-imgwrap {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #DBDED5;
+  position: relative;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo .bestideas-card .bestideas-imgwrap img {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo .bestideas-card h3 {
+  color: #15473E;
+  font-size: 23px;
+  line-height: 33.85px;
+  margin: 0;
+}
+.bestideas-section .bestideas-div .bestideas-grid .bestideas-gridtwo .bestideas-card p {
+  color: #111111;
+  font-size: 16px;
+}
+.bestideas-section .bestideas-div .bestideas-learn {
+  height: 304px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card {
+  width: 366px;
+  height: 240px;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card .skills-imgwrap {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #DBDED5;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card h2 {
+  color: #15473E;
+  font-size: 23px;
+  line-height: 33.85px;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card p {
+  color: #111111;
+  font-size: 16px;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card .skills-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card .skills-text p {
+  color: #15473E;
+  font-size: 16px;
+}
+.bestideas-section .bestideas-div .bestideas-learn .skills-card .skills-text a {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.testimonial-section {
+  height: 630px;
+  padding-inline: 120px;
+  padding-block: 94px;
+  background-color: #ffffff;
+}
+.testimonial-section .testimonial-div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonial-section .testimonial-div .testimos-one {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext {
+  width: 60%;
+  padding: 36.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext h1 {
+  font-size: 30px;
+  color: #15473E;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext p {
+  font-size: 18px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext .testimos-button {
+  width: 150px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #15473E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext .testimos-button p {
+  color: white;
+  font-size: 16px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-onetext .testimos-button div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main {
+  width: 40%;
+  background-color: #F3F9EB;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main p {
+  font-size: 17px;
+  width: 90%;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  gap: 20px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile .testimos-imgwrap {
+  height: 70px;
+  width: 70px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile .testimos-imgwrap img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile .testimos-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile .testimos-details h4 {
+  font-size: 22px;
+}
+.testimonial-section .testimonial-div .testimos-one .testimos-main .testimos-profile .testimos-details p {
+  font-size: 18px;
+  color: #959698;
+}
+.testimonial-section .testimonial-div .testimos-two {
+  height: 91px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonial-section .testimonial-div .testimos-two .stats-box {
+  height: 100%;
+  width: 134px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.testimonial-section .testimonial-div .testimos-two .stats-box h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #15473E;
+}
+.testimonial-section .testimonial-div .testimos-two .stats-box p {
+  font-size: 20px;
+}
+
+.overlay-section {
+  height: 350px;
+  position: relative;
+}
+.overlay-section .overlay-imgwrap {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 1;
+}
+.overlay-section .overlay-imgwrap img {
+  width: 100%;
+  height: 100%;
+}
+.overlay-section .overlay {
+  background-color: rgba(21, 71, 62, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.overlay-section .overlay > p {
+  font-size: 28px;
+  color: #ffffff;
+  width: 780px;
+  text-align: center;
+}
+.overlay-section .overlay .overlay-button {
+  width: 155px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #F8FCED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.overlay-section .overlay .overlay-button p {
+  color: #15473E;
+  font-size: 16px;
+}
+.overlay-section .overlay .overlay-button div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
